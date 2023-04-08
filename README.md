@@ -24,59 +24,59 @@
 
 **Установка модуля re**
 ```python3
-	py -m pip install re
+py -m pip install re
 ```
 
 **Установка модуля colorama**
 ```python3
-	py -m pip install colorama
+py -m pip install colorama
 ```
 
 **Установка модуля ssl**
 ```python3
-	py -m pip install ssl
+py -m pip install ssl
 ```
 
 **Установка модуля socket**
 ```python3
-	py -m pip install socket
+py -m pip install socket
 ```
 
 **Установка модуля whois (python-whois)**
 ```python3
-	py -m pip install python-whois
+py -m pip install python-whois
 ```
 
 **Установка всех зависимостей сразу**
 ```python3
-	py -m pip install re colorama ssl socket python-whois
+py -m pip install re colorama ssl socket python-whois
 ```
 
 ## Пример выводов результатов программы 
 **Проверка будет выполнена на сайте аккредитованного регистратора доменов - reg.ru** <br><br>
 **Входные данные**
 ```
-	> reg.ru
+> reg.ru
 ```
 **Данные на выходе**
 ```
-	> Имя регистратора: REGRU-RU
-	> Сертификат для сайта reg.ru действителен и был выдан ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign Extended Validation CA - SHA256 - G3'),)).
-	> Домен reg.ru является доверенным.
-	> Данный сайт, а так же его клоны и зеркала не внесены в реестр мошеннических сайтов.
-	> Анализ сайта показал, что: Данный ресурс полностью безопасен.
+> Имя регистратора: REGRU-RU
+> Сертификат для сайта reg.ru действителен и был выдан ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign Extended Validation CA - SHA256 - G3'),)).
+> Домен reg.ru является доверенным.
+> Данный сайт, а так же его клоны и зеркала не внесены в реестр мошеннических сайтов.
+> Анализ сайта показал, что: Данный ресурс полностью безопасен.
 ```
 
 **Проверка будет выполнена на ресурсе заведомо принадлежащему мошенникам - appcash.app, мы категорически не рекомендуем посещать данный ресурс!** <br><br>
 **Входные данные**
 ```
-	> appcash.app
+> appcash.app
 ```
 **Данные на выходе**
 ```
-	> Имя регистратора: GoDaddy.com, LLC
-	> Сертификат для сайта appcash.app действителен и был выдан ((('countryName', 'US'),), (('organizationName', 'Google Trust Services LLC'),), (('commonName', 'GTS CA 1P5'),)).
-	> Домен appcash.app является недоверенным.
-	> Мы предполагаем что данный сайт - это клон или зеркало мошеннического ресурса. В нашей базе - 2 похожих ресурсов.
-	> Анализ сайта показал, что: Посещать данный ресурс категорически не стоит. Это фишинг или обман.
+> Имя регистратора: GoDaddy.com, LLC
+> Сертификат для сайта appcash.app действителен и был выдан ((('countryName', 'US'),), (('organizationName', 'Google Trust Services LLC'),), (('commonName', 'GTS CA 1P5'),)).
+> Домен appcash.app является недоверенным.
+> Мы предполагаем что данный сайт - это клон или зеркало мошеннического ресурса. В нашей базе - 2 похожих ресурсов.
+> Анализ сайта показал, что: Посещать данный ресурс категорически не стоит. Это фишинг или обман.
 ```
