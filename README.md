@@ -1,0 +1,2 @@
+# ScamCrawler
+ Find Internet scammers!
